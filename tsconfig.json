@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@server/*": ["server/*"],
+      "@routes": ["server/api/routes.ts"]
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
